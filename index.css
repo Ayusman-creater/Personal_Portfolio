@@ -389,3 +389,33 @@ form .btn2{
 
    
 }
+
+/* Responsive styles for devices smaller than 480px */
+@media (max-width: 480px) {
+    nav h1 {
+        font-size: 18px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    .services-list div h2 {
+        font-size: 20px;
+    }
+
+    .work img {
+        height: auto;
+    }
+
+    form input,
+    form textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .btn.btn2 {
+        padding: 10px 30px;
+    }
+}
+
